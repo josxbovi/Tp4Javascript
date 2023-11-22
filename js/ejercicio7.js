@@ -104,7 +104,7 @@ class Agenda {
 let agenda = new Agenda();
 let opcion = 0;
 while (opcion !== 8) {
-    opcion = parseInt(prompt("1- Añadir contacto\n2- Existe contacto\n3- Listar contactos\n4- Buscar contacto\n5- Eliminar contacto\n6- Agenda llena\n7- Huecos libres\n8- Salir\n- Cualquier otro número para salir"));
+    opcion = parseInt(prompt("1- Añadir contacto\n2- Existe contacto\n3- Listar contactos\n4- Buscar contacto\n5- Eliminar contacto\n6- Agenda llena\n7- Huecos libres\n8- Salir\n- Cualquier otro número para salir\n- Todas las respuestas se mostrarán por consola"));
     switch (opcion) {
         case 1:
             let nombre = prompt("Nombre");
